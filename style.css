@@ -1,0 +1,87 @@
+/* Basic Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  /* Adjust the width as desired */
+  height: 150px;
+  /* Adjust the height as desired */
+}
+
+a {
+  display: block;
+  margin-bottom: 10px;
+  /* Adjust the spacing as desired */
+}
+
+#about {
+  text-align: center;
+}
+
+#about h2,
+#about p {
+  text-align: center;
+}
+
+#links {
+  text-align: center;
+}
+
+#links h2 {
+  text-align: center;
+}
+
+#links ul {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Add more styling as needed */
